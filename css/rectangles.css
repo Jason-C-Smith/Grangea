@@ -1,0 +1,93 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  undefined;
+}
+#page-wrapper {
+  position: relative;
+  width: 980px;
+  /* centers the document */
+  margin: 0 auto;
+  /*
+  hides anything drawn off canvas.
+  remove overflow and height to see things drawn off canvas.
+  */
+  overflow: hidden;
+  height: 1000px;
+}
+/* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ body>p, body>h1, body>h2, body>h3, body>h4, body>h5, body>h6 {
+  margin-top: 0 !important;
+}
+.rectangle {
+  background: #006aff;
+  background-image: -moz-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: -webkit-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: -o-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: linear-gradient(180deg, #006aff 0%, #5d7780 100%);
+  margin: 0px;
+  border: none;
+  width: 980px;
+  height: 150px;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+}
+.rectangle-1 {
+  background: #006aff;
+  background-image: -moz-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: -webkit-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: -o-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: linear-gradient(180deg, #006aff 0%, #5d7780 100%);
+  margin: 0px;
+  border: none;
+  width: 980px;
+  height: 150px;
+  position: absolute;
+  top: 860px;
+  left: 0px;
+}
+.rectangle-2 {
+  background: #006aff;
+  background-image: -moz-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: -webkit-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: -o-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: linear-gradient(180deg, #006aff 0%, #5d7780 100%);
+  margin: 0px;
+  border: none;
+  width: 150px;
+  height: 1000px;
+  position: absolute;
+  top: 0px;
+  left: 830px;
+}
+.rectangle-3 {
+  background: #006aff;
+  background-image: -moz-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: -webkit-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: -o-linear-gradient(270deg, #006aff 0%, #5d7780 100%);
+  background-image: linear-gradient(180deg, #006aff 0%, #5d7780 100%);
+  margin: 0px;
+  border: none;
+  width: 150px;
+  height: 1000px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.rectangle-4 {
+  background: #bbefff;
+  margin: 0px;
+  border: none;
+  width: 679px;
+  height: 720px;
+  position: absolute;
+  top: 140px;
+  left: 151px;
+}
